@@ -1,52 +1,42 @@
-Gui 					(	
-	Window
+#stopwatch-container {
+  text-align: center;
+}
 
-CLi					(command line interface)
-	Linux(100) Ubuntu Cli
+#display {
+	display: inline-block;
+	font-size: 50px;
+	height: 70px;
+	width: 300px;
+	padding: 5px auto ;
+	margin: 80px auto;
+	 border-radius: 10px;
+	background-color: rgb(201, 227, 241); 
+}
 
-	MAC Gui / Cli 
+#millisecondsText{
+ display: block;
+ text-align: right ;
+ font-size: 75%;
+ margin-right: 300px;
+ margin-top: -100px;
+}
 
-
-Server 
-	Computer
-		Gui/CLi
-
-
-php --version
-
-	mysql --version
-
-	wampp php, mysql
-
-
-python --version
-
-
-
-
-
-Note 
-
-cd.. (back)
-
-dir (directory)
-
-cd FolderName
-
-****---****
-
-mkdir FolderName (make directory )
-
-rmdir FolderName (remove directory)
-
-
-Windows Clli / Linux Cli
-
-Moduele 2
-	C++
-	Python
-		1_sequence
-			1_hello_world.py
-
-
-s
+#controls button {
+  margin-top: 10px;
+  width: 125px;
+  height: 50px;
+  border-radius: 5px;
+   /* color :white; */
+}
+#startBtn{
+	background-color: rgb(51, 113, 247);
+	text-align: center;
+	font-size: larger;
+	margin-right: 20px;
+}
+#clearBtn{
+	background-color: rgb(209, 96, 120);
+	text-align: center;
+	font-size: larger;
+	margin-left: 20px;
+}
